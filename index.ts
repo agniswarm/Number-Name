@@ -18,7 +18,7 @@ namespace NumberName {
                 response += ' Point '
                 response += afterDecimal(stringifyNumber[1])
             }
-            console.log(response.replace(/\s{2,}/g, " "))
+            return response.replace(/\s{2,}/g, " ")
         }
         else
             throw Error(`Number expected but got ${typeof (number)}`)
