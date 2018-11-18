@@ -31,7 +31,6 @@ namespace NumberName {
             k.push(m % 1000)
             m = Math.floor(m / 1000)
         } while (m != 0)
-        console.log(k)
         for (let i = 0; i < k.length; i++) {
             response = `${oneToHundred(k[i])} ${higherOrder[i]} ${response}`
         }
