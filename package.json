@@ -1,16 +1,24 @@
 {
   "name": "number-to-numbername",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Translate a Number to it Number Name",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agniswarm/Number-Name.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {
-    "typescript": "^3.1.6"
-  }
+  "bugs": {
+    "url": "https://github.com/agniswarm/Number-Name/issues"
+  },
+  "homepage": "https://github.com/agniswarm/Number-Name#readme"
 }
